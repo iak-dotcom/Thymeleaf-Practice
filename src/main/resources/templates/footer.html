@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Footer Template</title>
+</head>
+<body>
+	<footer th:fragment="footer1(title,subtitle)">
+
+		<div class="container">
+		<h1 th:text="${title}"></h1>
+		<h1 th:text="${subtitle}"></h1>
+
+			<h1>This is the footer of my page</h1>
+			<h2>Feel free to contact me</h2>
+			<h2>Copyright content</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Quaerat voluptate ut quibusdam a deserunt quam eum accusamus error
+				odio illum placeat architecto ea deleni ti aliquam doloremque id
+				quis ex rerum.</p>
+
+		</div>
+
+	</footer>
+</body>
+</html>
